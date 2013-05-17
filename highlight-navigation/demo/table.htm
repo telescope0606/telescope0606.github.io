@@ -54,7 +54,7 @@
             keyCode = $this.highlightNavigation("getKeyCode"),
             $selectedRowID = $selectedRow.data("id");
         if(typeof $selectedRowID !== "undefined"){
-         location.href = "users.html#" + $selectedRowID;
+         location.href = "users.htm#" + $selectedRowID;
         }
        },
        itemClick: function(event, data){ //When action key (enter) is pressed, or row is clicked, go to applicable record.
@@ -62,7 +62,7 @@
             $selectedRow = $this.highlightNavigation("getSelectedItem"),
             $selectedRowID = $selectedRow.data("id");
         if(typeof $selectedRowID !== "undefined"){
-         location.href = "users.html#" + $selectedRowID;
+         location.href = "users.htm#" + $selectedRowID;
         }
        }
       });
