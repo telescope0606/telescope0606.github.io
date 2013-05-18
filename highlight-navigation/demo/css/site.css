@@ -73,4 +73,6 @@ nav.navigateMe a:focus{
 ul.navigateMe{
  list-style: none;
 }
+ul.navigateMe li{
+ padding: 5px;
 }
