@@ -38,19 +38,29 @@
 #users table tbody td{
  padding: 5px;
 }
-nav{
+nav.navigateMe{
+ border-right: 1px solid #d71317;
  padding: 0;
  margin: auto;
- background-image: url(navi_bg.png);
- height: 80px;
+ height: 40px;
+ width: 100%;
+ background: #ee151b;
 }
-nav a{
+nav.navigateMe a.selected{
+ background: #d01216;
+}
+nav.navigateMe a{
  float: left;
- background: url(navi_bg_divider.png) no-repeat right;
- padding: 0 32px;
+ background: #ee151b;
  display: block;
- line-height: 80px;
  text-decoration: none;
- font: 21px Georgia, "Times New Roman", Times, serif;
- color: #371c1c;
+ padding: 0 32px;
+ color: #fff;
+ font: 16px Georgia, "Times New Roman", Times, serif;
+ line-height: 40px;
+ border-left: 1px solid #d71317;
+}
+nav.navigateMe a:hover,
+nav.navigateMe a:focus{
+ background: #d01216 !important;
 }
