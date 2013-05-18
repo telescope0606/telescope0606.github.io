@@ -64,3 +64,7 @@ nav.navigateMe a:hover,
 nav.navigateMe a:focus{
  background: #e7141a;
 }
+ul.navigateMe{
+ list-style: none;
+}
+}
