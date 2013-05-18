@@ -1,3 +1,9 @@
+#users h1{
+ width: 60%;
+ margin: 0 auto;
+ padding: 10px 0;
+ font: bold 22px "Helvetica Neue", helvetica, arial;
+}
 #users table{
  width: 60%;
  max-width: 900px;
