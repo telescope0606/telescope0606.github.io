@@ -35,6 +35,22 @@
 #users table tbody tr.selected{
  background: #dde3ff;
 }
-#userstable tbody td{
+#users table tbody td{
  padding: 5px;
+}
+nav{
+ padding: 0;
+ margin: auto;
+ background-image: url(navi_bg.png);
+ height: 80px;
+}
+nav a{
+ float: left;
+ background: url(navi_bg_divider.png) no-repeat right;
+ padding: 0 32px;
+ display: block;
+ line-height: 80px;
+ text-decoration: none;
+ font: 21px Georgia, "Times New Roman", Times, serif;
+ color: #371c1c;
 }
