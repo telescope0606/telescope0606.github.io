@@ -1,3 +1,6 @@
+p{
+ font: italic 11px;
+}
 #users h1{
  width: 60%;
  margin: 0 auto;
@@ -72,7 +75,9 @@ nav.navigateMe a:focus{
 }
 ul.navigateMe{
  list-style: none;
+ width: 350px;
 }
 ul.navigateMe li{
  padding: 5px;
+ border: 1px solid #e2e2e2;
 }
